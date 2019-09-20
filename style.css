@@ -15,6 +15,11 @@ Header{
 nav{
     background: #ebebeb;
     text-align: center;
+    word-spacing: 6em;
+    padding: 10px;
+}
+a{
+    color: #777;
 }
 h1{
     color: #777;
@@ -28,7 +33,7 @@ section{
     background: #ebebeb;
     text-align: center;
     float: left;
-    margin: 6px 1px;
+    margin: 25px 1px;
 }
 article{
     color:#ebebeb;
@@ -36,6 +41,7 @@ article{
     width: 450px;
     height: 300px;
     margin: auto;
+    padding-top:1px;
 }
 #para_title{
     background: #ebebeb;
@@ -43,13 +49,15 @@ article{
     width:425px; 
     margin: auto;
     margin-bottom: 6px;
+    padding: 10px 1px;
 }
 #para{
     background: #ebebeb;
     color: #777;
     width: 425px;
-    height: 200px;
+    height: 150px;
     margin: auto;
+    padding:10px 1px;
 }
 
 aside{
@@ -58,11 +66,12 @@ aside{
     height: 400px;
     width: 450px;
     float:right;
-    margin: 6px 1px;
+    margin: 25px 1px;
 }
 footer{
     height: 100px;
     background: #ebebeb;
+    margin-top: 10px;
     padding-top:10px;
     text-align: center;
     clear: both;
